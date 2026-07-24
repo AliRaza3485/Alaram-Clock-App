@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BFS Maze Pathfinding Visualizer
 
 An interactive Streamlit app that visualizes **Breadth-First Search (BFS)**
@@ -23,3 +24,6 @@ streamlit run app.py
 
 ## Live demo
 [Add your deployed Streamlit Cloud link here]
+=======
+# BFS-maze-solver-
+>>>>>>> d69c5f91a6390a76fd94b6eee14f6cbea4e74a8b
