@@ -23,7 +23,7 @@ streamlit run app.py
 - BFS with a `collections.deque` queue
 
 ## Live demo
-[Add your deployed Streamlit Cloud link here]
+[https://aliraza-bfs-maze.streamlit.app/]
 =======
 # BFS-maze-solver-
 >>>>>>> d69c5f91a6390a76fd94b6eee14f6cbea4e74a8b
