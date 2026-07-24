@@ -23,7 +23,7 @@ streamlit run app.py
 > **Note:** To enable the sound alert, place an `alaram.mp3` file in the same folder as `app.py`. If the file isn't found, the app still works — it just skips the sound.
 
 ## Live Demo
-🔗 [Add your deployed Streamlit link here]
+🔗 https://alaram-clock-app-set.streamlit.app/
 
 ## Author
 Ali Raza
