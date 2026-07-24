@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ⏰ Alarm Clock / Countdown Timer
 
 A polished countdown timer built with Python and Streamlit — set a custom duration or use quick presets, name your timer, and get notified with sound and a live progress bar when time's up.
@@ -26,3 +27,7 @@ streamlit run app.py
 
 ## Author
 Ali Raza
+=======
+# Alaram-Clock-App
+⏰ A countdown timer app with quick presets, custom labels, sound alerts, and session history — built with Python &amp; Streamlit.
+>>>>>>> 88ff551b67f86e66d4b97e2b89971793cfbec729
