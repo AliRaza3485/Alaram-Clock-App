@@ -1,29 +1,28 @@
-<<<<<<< HEAD
-# BFS Maze Pathfinding Visualizer
+# ⏰ Alarm Clock / Countdown Timer
 
-An interactive Streamlit app that visualizes **Breadth-First Search (BFS)**
-solving a maze in real time — showing explored cells and the final shortest
-path step by step.
+A polished countdown timer built with Python and Streamlit — set a custom duration or use quick presets, name your timer, and get notified with sound and a live progress bar when time's up.
 
-## Why this project
-BFS on a grid is a classic way to demonstrate graph traversal and shortest-path
-guarantees, which come up frequently in technical interviews (especially for
-roles that test DSA fundamentals).
+## Features
+- Quick presets (1 min, 5 min, 10 min, 25 min Pomodoro)
+- Custom timer name/label
+- Live-updating countdown display with progress bar
+- Sound alert when the timer finishes (toggleable)
+- Session history log of completed timers (sidebar)
 
-## Run locally
+## Tech Stack
+- Python
+- Streamlit
+
+## Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Tech
-- Python
-- Streamlit (UI)
-- Matplotlib (grid rendering)
-- BFS with a `collections.deque` queue
+> **Note:** To enable the sound alert, place an `alaram.mp3` file in the same folder as `app.py`. If the file isn't found, the app still works — it just skips the sound.
 
-## Live demo
-[https://aliraza-bfs-maze.streamlit.app/]
-=======
-# BFS-maze-solver-
->>>>>>> d69c5f91a6390a76fd94b6eee14f6cbea4e74a8b
+## Live Demo
+🔗 [Add your deployed Streamlit link here]
+
+## Author
+Ali Raza
