@@ -99,6 +99,32 @@ section[data-testid="stSidebar"] {{
     background: {BG_TOP};
     border-right: 1px solid rgba(202, 160, 87, 0.2);
 }}
+
+.py-badge {{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 28px;
+    padding: 8px 0;
+}}
+.py-badge span {{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: #9b93b8;
+    letter-spacing: 0.03em;
+}}
+.py-badge .pill {{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(90deg, #3776ab 0%, #ffd43b 100%);
+    color: #14131f;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+}}
 </style>
 """
 st.markdown(CSS, unsafe_allow_html=True)
@@ -344,3 +370,9 @@ with st.expander("How the search works"):
         - 🟠 Orange trail — the final shortest path once the exit is found
         """
     )
+
+st.markdown(
+    '<div class="py-badge"><span class="pill">🐍 Python</span>'
+    '<span>Built with Streamlit · BFS graph traversal</span></div>',
+    unsafe_allow_html=True,
+)
